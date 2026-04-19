@@ -1,0 +1,47 @@
+SPEAKER_02: Doctor, thanks for seeing me so quickly.
+SPEAKER_00: Good morning, Zara.
+SPEAKER_00: Please have a seat.
+SPEAKER_00: So, what brings you in today?
+SPEAKER_02: It's this cough.
+SPEAKER_02: I've had it for about three weeks now, and it just won't go away.
+SPEAKER_02: It's really starting to bother me.
+SPEAKER_00: Okay, three weeks is definitely a good amount of time to see if it will pass on its own.
+SPEAKER_00: Can you describe the cough for me?
+SPEAKER_00: Is it dry, or are you bringing anything up?
+SPEAKER_02: It's mostly dry, but sometimes, especially in the mornings, I cough up a little bit of phlegm.
+SPEAKER_02: It's kind of yellow.
+SPEAKER_00: I see.
+SPEAKER_00: The color is good information.
+SPEAKER_00: Any fever, chills, or body aches?
+SPEAKER_02: No fever, but I felt a bit run down, a little tired, and my chest feels tight, like a weight on my chest.
+SPEAKER_00: All right, let's have a listen to your lungs.
+SPEAKER_00: Sound of stethoscope?
+SPEAKER_00: Take a deep breath in, and out, good, again, and out, okay.
+SPEAKER_00: Sound of tapping on chest.
+SPEAKER_00: Do you have any history of asthma or allergies?
+SPEAKER_02: No, none that I know of.
+SPEAKER_02: I've generally been pretty healthy.
+SPEAKER_02: I try to eat well and exercise regularly.
+SPEAKER_00: Hmm.
+SPEAKER_00: It sounds like you might have a touch of bronchitis.
+SPEAKER_00: I'm going to prescribe you some cough medicine to help loosen the mucus, and I'll also write you a prescription for an antibiotic just in case it's bacterial.
+SPEAKER_01: Antibiotics?
+SPEAKER_01: Is it definitely an infection?
+SPEAKER_01: I've heard that doctors prescribe them too much.
+SPEAKER_00: That's a valid concern, Zara.
+SPEAKER_00: Not necessarily, but we want to be proactive.
+SPEAKER_00: If it doesn't improve within a few days, the antibiotics will help prevent it from getting worse.
+SPEAKER_00: We can reassess in three days if you haven't improved.
+SPEAKER_00: Be sure to take the entire course of antibiotics, even if you start feeling better.
+SPEAKER_00: It's important to kill all the bacteria to prevent resistance.
+SPEAKER_02: Okay, I understand.
+SPEAKER_02: Anything else I should do?
+SPEAKER_00: Yes, plenty of rest, drink lots of fluids, especially warm liquids like tea with honey.
+SPEAKER_00: Avoid irritants like smoke or strong perfumes.
+SPEAKER_00: If you develop a high fever, over 102 degrees Fahrenheit, or if you have trouble breathing, please go to the emergency room immediately.
+SPEAKER_02: We'll do.
+SPEAKER_02: Thank you, doctor.
+SPEAKER_02: I appreciate your thoroughness.
+SPEAKER_00: You're welcome, Zara.
+SPEAKER_00: Get some rest, and I hope you feel better soon.
+SPEAKER_00: Come back in three days if you have not improved.

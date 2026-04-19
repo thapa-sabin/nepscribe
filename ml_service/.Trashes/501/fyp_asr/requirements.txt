@@ -1,0 +1,13 @@
+pydub
+faster-whisper
+langchain-huggingface
+langchain-core
+python-dotenv
+fastapi
+python-multipart
+
+#"""python -m pip install -U \
+#"transformers==4.48.3" \
+#"tokenizers==0.21.1" \
+#"huggingface-hub==0.36.2" \
+#"accelerate==0.34.2

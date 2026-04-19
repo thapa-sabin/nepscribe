@@ -1,0 +1,31 @@
+S: 
+- Patient's name: Zahra
+- Chief complaint: Persistent cough for three weeks
+- History of present illness: Zahra has been experiencing a persistent cough for three weeks, which is mostly dry but occasionally brings up yellow phlegm. She also reports feeling run down, tired, and having a tight chest.
+- Allergies: None known
+- Medical history: Generally healthy, with a regular diet and exercise routine
+- Social history: Not mentioned
+
+O: 
+- Vital signs: Not mentioned
+- Physical examination: 
+  - Lung sounds: Abnormal (possible bronchitis)
+  - Chest examination: Tightness in the chest
+- Laboratory results: Not mentioned
+- Diagnostic tests: Not mentioned
+
+A: 
+- Assessment: Possible bronchitis
+- Plan: 
+  - Prescribe cough medicine to help loosen mucus
+  - Write a prescription for an antibiotic to prevent bacterial infection
+  - Advise patient to take the entire course of antibiotics
+  - Recommend plenty of rest, warm liquids, and avoidance of irritants
+  - Schedule a follow-up appointment in three days if symptoms do not improve
+
+P: 
+- Plan of care: 
+  - Patient will take cough medicine and antibiotics as prescribed
+  - Patient will rest, drink warm liquids, and avoid irritants
+  - Patient will return in three days if symptoms do not improve
+  - Patient will seek emergency care if high fever (over 102 degrees Fahrenheit) or difficulty breathing occurs.
