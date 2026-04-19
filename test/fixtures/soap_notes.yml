@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  recording: one
+  subjective: MyText
+  objective: MyText
+  assessment: MyText
+  plan: MyText
+
+two:
+  recording: two
+  subjective: MyText
+  objective: MyText
+  assessment: MyText
+  plan: MyText
