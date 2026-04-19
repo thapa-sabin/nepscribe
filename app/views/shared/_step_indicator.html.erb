@@ -1,0 +1,61 @@
+<% step = @current_step %>
+<% steps = ["record", "transcript", "soap"] %>
+
+<div class="flex items-center justify-center">
+  <nav aria-label="Progress">
+    <ol role="list" class="flex items-center space-x-1 rounded-full bg-slate-100 p-1 border border-slate-200">
+      
+      <!-- Record Step -->
+      <li>
+        <%= link_to new_recording_path, class: "group flex items-center px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 #{step == 'record' ? 'bg-white text-blue-700 shadow-sm ring-1 ring-slate-200' : 'text-slate-500 hover:text-blue-600'}" do %>
+          <span class="<%= step == 'record' ? '' : '' %>">Record</span>
+        <% end %>
+      </li>
+
+      <!-- Transcript Step -->
+      <% transcript_ready = @recording&.transcript.present? %>
+        <li>
+        <% if transcript_ready %>
+          <%= link_to recording_path(@recording), class: "group flex items-center px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 #{step == 'transcript' ? 'bg-white text-blue-700 shadow-sm ring-1 ring-slate-200' : 'text-blue-600 hover:text-blue-700'}" do %>
+             <% if step != 'transcript' %>
+               <svg class="mr-1.5 h-4 w-4 flex-shrink-0 text-blue-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+             <% end %>
+            <span>Transcript</span>
+          <% end %>
+        <% else %>
+          <div class="flex items-center px-4 py-1.5 rounded-full text-sm font-medium text-slate-400 cursor-not-allowed">
+            Transcript
+          </div>
+        <% end %>
+      </li>
+
+      <!-- SOAP Step -->
+      <% soap_ready = @recording&.soap_note.present? &&
+            [@recording.soap_note.subjective,
+             @recording.soap_note.objective,
+             @recording.soap_note.assessment,
+             @recording.soap_note.plan].any?(&:present?) %>
+      <li>
+        <% if soap_ready %>
+          <%= link_to recording_soap_note_path(@recording), class: "group flex items-center px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 #{step == 'soap' ? 'bg-white text-blue-700 shadow-sm ring-1 ring-slate-200' : 'text-blue-600 hover:text-blue-700'}" do %>
+             <% if step != 'soap' %>
+               <svg class="mr-1.5 h-4 w-4 flex-shrink-0 text-blue-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+             <% end %>
+            <span>SOAP</span>
+          <% end %>
+        <% else %>
+           <div class="flex items-center px-4 py-1.5 rounded-full text-sm font-medium text-slate-400 cursor-not-allowed">
+            SOAP
+          </div>
+        <% end %>
+      </li>
+
+    </ol>
+  </nav>
+
+  <!-- New Session Shortcut moved to header -->
+</div>
